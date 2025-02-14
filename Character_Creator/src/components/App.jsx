@@ -1,36 +1,20 @@
-import React from "react";
-import SpriteSheet from "../assets/Character_SpriteSheet_v1.svg";
+import React, { useEffect, useState } from "react";
 import "../styles/App.css";
+import Character from "./Character";
+import Settings from "./Settings";
 
 const App=()=>{
-  let h="1280px";
-  let w="1280px";
-
-  return(
-    <>
-      <div className="frame0">
-        <img src={SpriteSheet} className="body1" height={h} width={w}   alt="body"></img>
-      </div>
-      <div className="frame1">
-        <img src={SpriteSheet} className="hairdarkgray" height={h} width={w}  alt="hair"></img>
-      </div>
-      <div className="frame2">
-        <img src={SpriteSheet} className="eyesgreen" height={h} width={w}  alt="eyes"></img>
-      </div>
-      
-      <div className="frame3">
-        <img src={SpriteSheet} className="shirtblack" height={h} width={w}  alt="shirt"></img>
-      </div>
-      <div className="frame3">
-        <img src={SpriteSheet} className="pantred" height={h} width={w}  alt="shirt"></img>
-      </div>
-      <div className="frame4">
-        <img src={SpriteSheet} className="jacketred" height={h} width={w}  alt="shirt"></img>
-      </div>
-      <div className="frame4">
-        <img src={SpriteSheet} className="weaponsword" height={h} width={w}  alt="shirt"></img>
-      </div>
-    </>
+  const [characterState, setCharacterState] = useState({
+    h : "1280px", w : "1280px", body : "body1", hair: "hairdarkgray", eyes : "eyesgreen", weapon : "weapon3", shirt : "shirtblack", jacket : "jacketred", pant : "pantred", shoes : "shoesblack"});
+    
+  const update=(data)=>{
+    setCharacterState(data);
+  }
+    return(
+    <div className="App">
+      <Character characterState={characterState}/>
+      <Settings characterState={characterState} update={update}/>
+    </div>
   )
 }
 

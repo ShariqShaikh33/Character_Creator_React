@@ -1,3 +1,8 @@
+.App{
+    background: #2a2942;
+    height: 99vh;
+}
+
 /* Viewport of the image */
 .frame0, .frame1, .frame2, .frame3, .frame4{
     display: block;
@@ -35,23 +40,23 @@
 .body2{
     position: relative;
     top: 0px;
-    left: -64px;
+    left: -320px;
 }
 .body3{
     position: relative;
     top: 0px;
-    left: -96px;
+    left: -480px;
 }
 .body4{
     position: relative;
     top: 0px;
-    left: -128px;
+    left: -640px;
 }
 
 /* CSS class for hair sprite */
 .hairblack{
     position: relative;
-    top: -32px;
+    top: -160px;
     left: 0px;
 }
 .hairdarkgray{
@@ -61,39 +66,39 @@
 }
 .hairbrown{
     position: relative;
-    top: -32px;
-    left: -64px;
+    top: -160px;
+    left: -320px;
 }
 .hairblonde{
     position: relative;
-    top: -32px;
-    left: -96px;
+    top: -160px;
+    left: -480px;
 }
 .hairlightgray{
     position: relative;
-    top: -32px;
-    left: -64px;
+    top: -160px;
+    left: -640px;
 }
 .hairwhite{
     position: relative;
-    top: -32px;
-    left: -160px;
+    top: -160px;
+    left: -800px;
 }
 
 .eyesblack{
     position: relative;
-    top: -64px;
+    top: -320px;
     left: 0px;
 }
 .eyesdarkgray{
     position: relative;
-    top: -64px;
-    left: -32px;
+    top: -320px;
+    left: -160px;
 }
 .eyesbrown{
     position: relative;
-    top: -64px;
-    left: -64px;
+    top: -320px;
+    left: -320px;
 }
 .eyesgreen{
     position: relative;
@@ -102,13 +107,13 @@
 }
 .eyesblue{
     position: relative;
-    top: -64px;
-    left: -128px;
+    top: -320px;
+    left: -640px;
 }
 .eyeslightgray{
     position: relative;
-    top: -64px;
-    left: -160px;
+    top: -320px;
+    left: -800px;
 }
 
 .shirtblack{
@@ -116,21 +121,202 @@
     top: -640px;
     left: 0px;
 }
+.shirtred{
+    position: relative;
+    top: -640px;
+    left: -160px;
+}
+.shirtblue{
+    position: relative;
+    top: -640px;
+    left: -320px;
+}
+.shirtgreen{
+    position: relative;
+    top: -640px;
+    left: -480px;
+}
+.shirtyellow{
+    position: relative;
+    top: -640px;
+    left: -640px;
+}
+.shirtgray{
+    position: relative;
+    top: -640px;
+    left: -800px;
+}
+.shirtpurple{
+    position: relative;
+    top: -640px;
+    left: -960px;
+}
+.shirtwhite{
+    position: relative;
+    top: -640px;
+    left: -1120px;
+}
 
+.pantblack{
+    position: relative;
+    top: -960px;
+    left: 0px;
+}
 .pantred{
     position: relative;
     top: -960px;
     left: -160px;
 }
+.pantblue{
+    position: relative;
+    top: -960px;
+    left: -320px;
+}
+.pantgreen{
+    position: relative;
+    top: -960px;
+    left: -480px;
+}
+.pantyellow{
+    position: relative;
+    top: -960px;
+    left: -640px;
+}
+.pantgray{
+    position: relative;
+    top: -960px;
+    left: -800px;
+}
+.pantpurple{
+    position: relative;
+    top: -960px;
+    left: -960px;
+}
+.pantwhite{
+    position: relative;
+    top: -960px;
+    left: -1120px;
+}
 
+.jacketblack{
+    position: relative;
+    top: -800px;
+    left: 0px;
+}
 .jacketred{
     position: relative;
     top: -800px;
     left: -160px;
 }
+.jacketblue{
+    position: relative;
+    top: -800px;
+    left: -320px;
+}
+.jacketgreen{
+    position: relative;
+    top: -800px;
+    left: -480px;
+}
+.jacketyellow{
+    position: relative;
+    top: -800px;
+    left: -640px;
+}
+.jacketgray{
+    position: relative;
+    top: -800px;
+    left: -800px;
+}
+.jacketpurple{
+    position: relative;
+    top: -800px;
+    left: -960px;
+}
+.jacketwhite{
+    position: relative;
+    top: -800px;
+    left: -1120px;
+}
 
-.weaponsword{
+.weapon0{
+    position: relative;
+    top: -480px;
+    left: 0px;
+}
+.weapon1{
     position: relative;
     top: -480px;
     left: -160px;
+}
+.weapon2{
+    position: relative;
+    top: -480px;
+    left: -320px;
+}
+.weapon3{
+    position: relative;
+    top: -480px;
+    left: -480px;
+}
+.weapon4{
+    position: relative;
+    top: -480px;
+    left: -640px;
+}
+
+
+.shoesblack{
+    position: relative;
+    top: -1120px;
+    left: 0px;
+}
+.shoesred{
+    position: relative;
+    top: -1120px;
+    left: -160px;
+}
+.shoesblue{
+    position: relative;
+    top: -1120px;
+    left: -320px;
+}
+.shoesgreen{
+    position: relative;
+    top: -1120px;
+    left: -480px;
+}
+.shoesyellow{
+    position: relative;
+    top: -1120px;
+    left: -640px;
+}
+.shoesgray{
+    position: relative;
+    top: -1120px;
+    left: -800px;
+}
+.shoespurple{
+    position: relative;
+    top: -1120px;
+    left: -960px;
+}
+.shoeswhite{
+    position: relative;
+    top: -1120px;
+    left: -1120px;
+}
+
+
+
+.btns{
+    position: relative;
+    top: 200px;
+    margin-bottom: 1rem;
+}
+
+.btndiv{
+    display: flex;
+    flex-direction: rows;
+    gap: 1rem;
 }
